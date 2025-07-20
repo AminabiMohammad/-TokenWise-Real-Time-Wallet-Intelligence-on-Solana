@@ -68,40 +68,41 @@ tokenwise/
 
 ---
 
-## ⚙ Setup Instructions
-
 ### 🔁 Step 1: Clone the Repository
 
-bash
+```bash
 git clone https://github.com/AminabiMohammad/-TokenWise-Real-Time-Wallet-Intelligence-on-Solana.git
 cd tokenwise
-
+```
 
 ---
 
-### 🔌 Step 2: Setup Backend(Terminal-1)
-Run these commands in Terminal 1 to start the backend service.
-bash
+### 🔌 Step 2: Setup Backend (Terminal-1)
+
+Run these commands in **Terminal 1** to start the backend service:
+
+```bash
 cd tokenwise
 npm install
 npm run server
+```
 
-
-
-> Starts backend at http://localhost:5000
+> Starts backend at `http://localhost:5000`
 
 ---
 
-### 💻 Step 3: Setup Frontend(Terminal-2)
-Open a new terminal (Terminal 2) in parallel and run the following:
-bash
+### 💻 Step 3: Setup Frontend (Terminal-2)
+
+Open a **new terminal (Terminal 2)** in parallel and run the following:
+
+```bash
 cd tokenwise
 cd ../dashboard
 npm install
 npm start
+```
 
-
-> Launches dashboard at http://localhost:3000
+> Launches dashboard at `http://localhost:3000`
 
 ---
 
@@ -120,7 +121,7 @@ npm start
 
 ## 📊 Sample Output (JSON)
 
-json
+```json
 [
   {
     "wallet": "7fjN5gZyW...ERs",
@@ -135,9 +136,7 @@ json
     "lastActive": "2025-07-10T09:55:00Z"
   }
 ]
-
-
----
+```
 
 ## 📤 Export Features
 
