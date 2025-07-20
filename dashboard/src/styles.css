@@ -1,0 +1,52 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+.container {
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.card {
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.green {
+  background: green;
+}
+
+.red {
+  background: crimson;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.activity {
+  max-width: 300px;
+}
+
+ul {
+  padding-left: 1rem;
+}
