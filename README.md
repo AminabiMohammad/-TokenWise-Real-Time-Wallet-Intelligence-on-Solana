@@ -72,7 +72,8 @@ tokenwise/
 
 ```bash
 git clone https://github.com/AminabiMohammad/-TokenWise-Real-Time-Wallet-Intelligence-on-Solana.git
-cd tokenwise
+cd -TokenWise-Real-Time-Wallet-Intelligence-on-Solana
+
 ```
 
 ---
@@ -82,7 +83,7 @@ cd tokenwise
 Run these commands in **Terminal 1** to start the backend service:
 
 ```bash
-cd tokenwise
+
 npm install
 npm run server
 ```
@@ -96,8 +97,8 @@ npm run server
 Open a **new terminal (Terminal 2)** in parallel and run the following:
 
 ```bash
-cd tokenwise
-cd ../dashboard
+
+cd dashboard
 npm install
 npm start
 ```
